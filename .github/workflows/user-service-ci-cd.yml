@@ -19,7 +19,7 @@ jobs:
           java-version: 17
 
       - name: Build and run tests
-        run: mvn clean test
+        run: mvn clean package
 
       - name: Deploy Artifact to Nexus
         if: github.ref == 'refs/heads/master'
