@@ -6,11 +6,11 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: user-service
+      app: user-service-prod
   template:
     metadata:
       labels:
-        app: user-service
+        app: user-service-prod
     spec:
       containers:
         - name: user-service
