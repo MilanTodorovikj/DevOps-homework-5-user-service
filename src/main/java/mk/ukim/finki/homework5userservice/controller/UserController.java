@@ -15,8 +15,7 @@ public class UserController {
             new User(1L, "Milan"),
             new User(2L, "Nikola"),
             new User(3L, "Filip"),
-            new User(4L, "Marko"),
-            new User(5L, "Anastasija")
+            new User(4L, "Marko")
     );
 
     @GetMapping("/{id}")
