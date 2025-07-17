@@ -14,8 +14,7 @@ public class UserController {
     private final List<User> users = List.of(
             new User(1L, "Milan"),
             new User(2L, "Nikola"),
-            new User(3L, "Filip"),
-            new User(4L, "Marko")
+            new User(3L, "Filip")
     );
 
     @GetMapping("/{id}")
